@@ -1,0 +1,176 @@
+/*
+Algumas informações úteis e dicas:
+  - Fontes disponíveis:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+  - Cores:
+    Tons de amarelo:
+      #e4fc2b
+      #e0d426
+      #f7d736
+      #e0af26
+      #fcb02b
+    Tons de cinza:
+      #2c2c2c
+      #4c4c4c
+    Cores dos cards:
+      #ead3a7
+      #9de0f5
+      #ef89ba
+      #fae890
+      #abe9c1
+  - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
+ */
+
+
+body {
+  font-family: "Roboto", sans-serif;
+   
+}
+
+main {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 3rem;
+  margin-right: 1rem; 
+}
+
+.appbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f7d736;
+  padding: .7rem;
+  box-shadow: 0 0.5rem 0.8rem gray;
+  margin-bottom: 35px;
+  height: 50px;
+}
+
+.subtitle {
+  color: #484646; 
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 0.6rem; 
+  margin-top: 0.3rem;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7d736;
+  border: none;
+  margin-top: .3rem;
+  margin-left : .5rem;
+  margin-right: .5rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  box-shadow: 0 0.2rem 0.2rem gray
+}
+
+.form-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  width: 25rem;
+  height: 8rem;
+  max-height: 10rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.autoresize {
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  margin-top: .8rem;
+  font-size: .8rem;
+  margin-left: 0.5rem;
+  resize: none;
+}
+
+.form-card-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+}
+ 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+
+ 
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  gap: 0px; 
+  max-width: 100%; 
+}
+
+
+ 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #4c4c4c;
+  width: 200px;
+  min-height: 100px;
+  max-height: 100px;
+  background-color: #f2eb7f; 
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Permanent Marker', cursive;
+  font-size: 18px;
+  box-shadow: 0 0.2rem 0.4rem gray;
+}
+ 
+.card-title {
+  color: #2c2c2c;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+ 
+.card-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  font-size: 15px;
+}
+ 
+.card-color-1 { background-color: #abe9c1; }
+.card-color-2 { background-color: #ef89ba; }
+.card-color-3 { background-color: #9de0f5  ; }
+.card-color-4 { background-color: #fae890 }
+.card-color-5 { background-color: #ead3a7; }
+
+.card-rotation-1 { transform: rotate(5deg);; }
+.card-rotation-2 { transform: rotate(4deg);; }
+.card-rotation-3 { transform: rotate(3deg);; }
+.card-rotation-4 { transform: rotate(2deg);; }
+.card-rotation-5 { transform: rotate(1deg);; }
+.card-rotation-6 { transform: rotate(0deg);; }
+.card-rotation-7 { transform: rotate(-1deg);; }
+.card-rotation-8 { transform: rotate(-2deg);; }
+.card-rotation-9 { transform: rotate(-3deg);; }
+.card-rotation-10 { transform: rotate(-4deg);; }
+.card-rotation-11 { transform: rotate(-5deg);; }
